@@ -4,5 +4,9 @@ new require("./bot.js")({
 	name: "ThonKoin",
 	symbol: "TK",
 	
-	mzs: 5
+	mzs: 5,
+	
+	err: {
+		cmd_not_found: ":thonk: hmmm could not find this command :thinking:"
+	}
 });
